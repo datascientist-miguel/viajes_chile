@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Viajes Chile</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e485e5b066.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">   
 </head>
 <body>
+    <header id="inicio">
+        <nav class="navbar navbar-viajes navbar-expand-md navbar-dark fixed-top">
+            <div class="container">
+                <img src="./assets/img/viajes.svg" alt="Viajes Chile Logo" class="img-nav">
+                <a class="navbar-brand titulo-nav" href="#inicio">Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link navegacion" href="#inicio">Inicio</a></li>
+                        <li class="nav-item d-none d-md-block"><a class="nav-link navegacion" href="#quienesSomos">Quiénes Somos</a></li>
+                        <li class="nav-item"><a class="nav-link navegacion" href="#destacado">Destacados</a></li>
+                        <li class="nav-item"><a class="nav-link navegacion" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="carouselSlideViajes" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./assets/img/carousel1.jpg" alt="Primera imagen del carrusel">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/img/carousel2.jpg" alt="Segunda imagen del carrusel">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/img/carousel3.jpg" alt="Tercera imagen del carrusel">
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carouselSlideViajes" type="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carouselSlideViajes" type="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </section>
+    </header>
     
 </body>
 </html>
