@@ -1,0 +1,71 @@
+body{
+    font-family: 'Raleway';
+}
+.navbar-viajes {
+    background-color: transparent;
+}
+.titulo-nav{
+    font: normal normal 500 37px/46px 'Raleway';
+}
+.img-nav{
+    width: 40px;
+    height: 40px;
+}
+.navegacion{
+    font: normal normal 300 16px/24px 'Raleway';
+    color: #ffffff;
+}
+main{
+    background-color: black;
+    color: #ffffff;
+}
+.subtitulo{
+    font: normal normal 700 25px/30px 'Raleway';
+    color: #ffffff;
+}
+.presentación i {
+    color: #ffffff;
+    background-color: #4dd9fc;
+    display: block;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.presentación p{
+    font: normal normal 300 20px/24px 'Raleway';
+    color: #ffffff;
+}
+.cuerpo-card{
+    background-color: #4dd9fc;
+}
+.cuerpo-card h5{
+    font: normal normal 700 20px/24px 'Raleway';
+    color: #ffffff;
+}
+.cuerpo-card p{
+    font: normal normal 300 20px/24px 'Raleway';
+    color: #ffffff;
+}
+.etiqueta-form{
+    font: normal normal 300 16px/20px 'Raleway';
+    color: #ffffff;
+}
+.btn-submit{
+    background-color: #4dd9fc;
+    color: #ffffff;
+    font: normal normal 700 16px/20px 'Raleway';
+}
+footer{
+    background-color: #4dd9fc;
+    color: #ffffff;
+    font-weight: bold;
+}
+.link-footer{
+    text-decoration: none;
+    color: inherit;
+    font: normal normal 500 37px/46px 'Raleway';
+}
+.iconos-footer{
+    color: #ffffff;
+    font-size: 25px;
+}
