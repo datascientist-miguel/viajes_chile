@@ -69,3 +69,14 @@ footer{
     color: #ffffff;
     font-size: 25px;
 }
+@media (max-width: 767.98px) {
+    .navbar-viajes .navbar-collapse{
+        background-color: rgba(76, 130, 173, 0.9);
+    }
+    .navbar-viajes .navbar-nav .nav-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
