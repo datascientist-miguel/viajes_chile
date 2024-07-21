@@ -1,28 +1,36 @@
+/* Estilo global para el cuerpo */
 body{
     font-family: 'Raleway';
 }
+/* Estilo para la barra de navegación */
 .navbar-viajes {
     background-color: transparent;
 }
+/* Estilo para el título de la barra de navegación */
 .titulo-nav{
     font: normal normal 500 37px/46px 'Raleway';
 }
+/* Estilo para la imagen del logo en la barra de navegación */
 .img-nav{
     width: 40px;
     height: 40px;
 }
+/* Estilo para los enlaces de navegación */
 .navegacion{
     font: normal normal 300 16px/24px 'Raleway';
     color: #ffffff;
 }
+/* Estilo para el contenido principal */
 main{
-    background-color: black;
+    background-color: #000000;
     color: #ffffff;
 }
+/* Estilo para los subtítulos */
 .subtitulo{
     font: normal normal 700 25px/30px 'Raleway';
     color: #ffffff;
 }
+/* Estilo para los iconos en la sección "Quiénes Somos" */
 .presentación i {
     color: #ffffff;
     background-color: #4dd9fc;
@@ -31,44 +39,54 @@ main{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+/* Estilo para los párrafos en la sección "Quiénes Somos" */
 .presentación p{
     font: normal normal 300 20px/24px 'Raleway';
     color: #ffffff;
 }
+/* Estilo para el cuerpo de las tarjetas en la sección "Destacados" */
 .cuerpo-card{
     background-color: #4dd9fc;
 }
+/* Estilo para los títulos de las tarjetas en la sección "Destacados" */
 .cuerpo-card h5{
     font: normal normal 700 20px/24px 'Raleway';
     color: #ffffff;
 }
+/* Estilo para los párrafos de las tarjetas en la sección "Destacados" */
 .cuerpo-card p{
     font: normal normal 300 20px/24px 'Raleway';
     color: #ffffff;
 }
+/* Estilo para las etiquetas del formulario en la sección "Contacto" */
 .etiqueta-form{
     font: normal normal 300 16px/20px 'Raleway';
     color: #ffffff;
 }
+/* Estilo para el botón de envío en la sección "Contacto" */
 .btn-submit{
     background-color: #4dd9fc;
     color: #ffffff;
     font: normal normal 700 16px/20px 'Raleway';
 }
+/* Estilo para el pie de página */
 footer{
     background-color: #4dd9fc;
     color: #ffffff;
     font-weight: bold;
 }
+/* Estilo para el enlace en el pie de página */
 .link-footer{
     text-decoration: none;
     color: inherit;
     font: normal normal 500 37px/46px 'Raleway';
 }
+/* Estilo para los iconos en el pie de página */
 .iconos-footer{
     color: #ffffff;
     font-size: 25px;
 }
+/* Estilo para dispositivos móviles */
 @media (max-width: 767.98px) {
     .navbar-viajes .navbar-collapse{
         background-color: rgba(76, 130, 173, 0.9);
